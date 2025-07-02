@@ -16,7 +16,7 @@ connectDB();
 // Middleware
 app.use(express.json());
 app.use(cors({
-  origin: ['http://localhost:8080', 'http://localhost:3000'],
+  origin: ['https://render-frontend-ayesh.onrender.com'],
   credentials: true
 }));
 
